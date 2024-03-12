@@ -1,0 +1,230 @@
+body {
+    font-family: 'Tisa', cursive, 'Arial', sans-serif; /* Set the font to Tisa with fallbacks */
+    margin: 0;
+    padding: 0;
+    background-color: #DDD5F3 ;
+}
+
+header {
+    font-family: 'Tangerine', cursive, 'Arial', sans-serif; /* Set the font to Tangerine with fallbacks */
+    font-size: 28px; /* Set the font size to 18 pixels */
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #89CFF0, #9DD9F3); /* Linear gradient matching the body */
+    color: #fff;
+    animation: fadeInDown 1s ease-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+    }
+
+nav a {
+  display: inline-block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+   section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+#about-me {
+   text-align: center;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   margin: 20px;
+}
+
+#about-me h2 {
+   color: #007BFF;
+}
+
+#about-me p {
+   margin: 20px 0;
+   line-height: 1.6;
+}
+
+#about-me img {
+   width: 200px;
+   border-radius: 50%;
+   margin-top: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+#project-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#project-link:hover {
+    text-decoration: underline;
+}
+
+.skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+  }
+
+  .skill-category {
+      margin-bottom: 20px;
+  }
+
+  .skill-category h3 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+  }
+
+  .skill-item {
+   padding: 15px;
+   text-align: center;
+   background-color: #ddd; /* Gray background color */
+   color: #333; /* Dark text color */
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.professional-section {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 20px;
+  }
+
+  .professional-section h2 {
+      color: #007BFF;
+  }
+
+  .professional-section p {
+      margin: 10px 0;
+  }
+
+  .professional-section a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+  }
+
+  .professional-section a:hover {
+      text-decoration: underline;
+  }
+
+  .linkedin-icon {
+      width: 30px;
+      height: auto;
+      margin-right: 5px;
+  }
+  #projects {
+   text-align: center;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   margin: 20px;
+   overflow-x: hidden;    /* Enable horizontal scrolling */
+   overflow-y: auto;  /* Disable vertical scrolling */
+}
+
+#projects h2 {
+   color: #007BFF;
+}
+
+.scrollable-section {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.project-card {
+   border: 1px solid #ddd; /* Add a border for separation */
+   border-radius: 10px;
+   padding: 20px;
+   margin: 20px 0;
+   background-color: #f9f9f9;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+   transform: scale(1.05);
+}
+
+.project-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.project-description {
+   margin-bottom: 15px;
+   line-height: 1.6;
+}
+
+.project-link {
+   color: #007BFF;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.project-link:hover {
+   text-decoration: underline;
+}
