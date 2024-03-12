@@ -1,12 +1,12 @@
 body {
-    font-family: 'Georgia', cursive, 'Arial', serif; /* Set the font to Tisa with fallbacks */
+    font-family: 'Georgia', cursive, 'Arial', serif; 
     margin: 0;
     padding: 0;
     background-color: #DDD5F3 ;
 }
 
 header {
-    font-family: 'Tangerine', cursive, 'Arial', sans-serif; /* Set the font to Tangerine with fallbacks */
+    font-family: 'Tangerine', cursive, 'Arial', sans-serif; 
     font-size: 28px; /* Set the font size to 18 pixels */
     text-align: center;
     padding: 50px;
